@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ajax with jQuery</title>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="ajax.js"></script>
+    <style>
+      #data {
+        border: 2px solid green;
+        width: 250px;
+        height: 250px;
+        overflow: scroll;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Ajax with jQuery</h1>
+    <form action="https://reqres.in/api/users" method="POST" id="form">
+      Name: <input type="text" name="name"/>
+      Web: <input type="text" name="web"/>
+      <input type="submit" value="Register"></button>
+    </form>
+    <br/>
+    <div id="data"></div>
+  </body>
+</html>
